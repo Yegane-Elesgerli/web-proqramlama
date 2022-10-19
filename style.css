@@ -1,5 +1,92 @@
-.max{
-    width: 400px;
-    height: 80;
-    background-color: red;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+.main{position: absolute;
+width: 1440px;
+height: 780px;
+left: -1px;
+background: #9DC9C8;
+} 
+.first{
+    width: 600px;
+    height: 250px;
+    margin-bottom: 80px;
+    margin-top: 184px;
+    margin-right:411px;
+    margin-left: 121px;
+}
+
+.head{
+   
+    Width:908px;
+    Height:66px;
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.price{
+    width: 170px;
+    height: 32px;
+    font-style: regular;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top:54px;
+    margin-bottom: 0px;
+}
+
+.number{
+    width: 481px;
+    height: 181px;
+    font-style: regular;
+    font-size: 80px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.second{
+    
+    /* background-color: blue; */
+    display: block;
+    margin-left: 121px;
+    margin-top: 25px;
+    margin-bottom:0px ;
+}
+.head1{
+    Width:294px;
+    Height:32px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top:0px ;
+    margin-bottom: 9px;
+}
+.kurs{
+    Width:294px;
+    Height:70px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:0px ;
+    margin-bottom: 0px;
+}
+.thirst{
+display: block;
+margin-left: 121px;
+margin-top: 25px;
+margin-bottom:0px ;
+}
+.now{
+    display: flex;
+}
+.head2{
+    Width:322px;
+    Height:32px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top:0px ;
+    margin-bottom: 9px;
+}
+.kurs{
+    Width:294px;
+    Height:70px;
+    font-size: 18px;
+    font-weight: 400;
 }
