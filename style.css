@@ -75,6 +75,9 @@ margin-bottom:0px ;
 }
 .now{
     display: flex;
+    width:600px;
+    height: 150px;
+
 }
 .head2{
     Width:322px;
@@ -84,9 +87,158 @@ margin-bottom:0px ;
     margin-top:0px ;
     margin-bottom: 9px;
 }
-.kurs{
+.veb{
     Width:294px;
     Height:70px;
     font-size: 18px;
     font-weight: 400;
 }
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .main{
+        Width:834px;
+        Height:451.75px;
+        margin-left: 70px;
+        
+    }
+    .first{
+        height: 180px;
+    }
+    .now{
+        height: 110px;
+    }
+    .head{
+    Width:525.88px;
+    Height:38.23px;
+    font-size: 32px;
+    }
+    .price{
+        Width:98.46px;
+        Height:18.5px;
+        font-size: 14pxpx;
+
+    }
+    .number{
+        Width:278px;
+        Height:104.23px;
+        font-size: 46px;
+    }
+    .head1{
+        Width:170.88px;
+        Height:18.23px;
+        font-size: 14px;
+    }
+    .kurs{
+        Width:170.88px;
+        Height:40.23px;
+        font-size: 10px;
+    }
+    .head2{
+        Width:186.88px;
+        Height:18.23px;
+        font-size: 14px;
+    }
+    .veb{
+        Width:170.88px;
+        Height:40.23px;
+        font-size: 10px;
+    }
+   
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px){
+
+    .second{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: 70px;
+        
+    }
+    .first{
+        margin-bottom: 15px;
+        margin-top: 103px;
+        margin-right:230px;
+        margin-left: 70px;
+      
+    }
+    .thirst{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        
+    }
+    }
+
+@media screen and (min-width: 320px) and (max-width: 991px){
+    .main{
+        Width:671px;
+        Height:363.75px;
+        margin-left: 70px;
+        
+    }
+    .first{
+        height: 170px;
+       
+    }
+    .now{
+        height: 70px;
+        
+    }
+    .head{
+        Width:224.88px;
+        Height:63.23px;
+        font-size: 26px;
+    }
+    .price{
+        Width:79.46px;
+        Height:14.5px;
+        font-size: 12px;
+
+    }
+    .number{
+        Width:224px;
+        Height:84.23px;
+        font-size: 37px;
+    }
+    .head1{
+        Width:137.88px;
+        Height:14.23px;
+        font-size: 12px;
+    }
+    .kurs{
+        Width:138.88px;
+        Height:47.23px;
+        font-size: 10px;
+    }
+    .head2{
+        Width:151.88px;
+        Height:14.23px;
+        font-size: 12px;
+    }
+    .veb{
+        Width:140.88px;
+        Height:38.23px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px){
+
+    .second{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: 57px;
+    
+}
+    .first{
+        margin-bottom: 15px;
+        margin-top: 63px;
+        margin-right:170px;
+        margin-left: 57px;
+  
+}
+    .thirst{
+        margin-top: 10px;
+        margin-bottom: 0px;
+}
+}    
