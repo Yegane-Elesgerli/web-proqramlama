@@ -1,25 +1,21 @@
 import React from "react";
 
 const Weather = props => (
-	<div className="weather__info">
+	<div className="weather_info">
 	 {	
-	 	props.city && props.country && <p className="weather__key"> Location: 
-	 		<span className="weather__value"> { props.city }, { props.country }</span>
+	 	props.city && props.country && <p className="weather_key"> Location: 
+	 		<span className="weather_value"> { props.city }, { props.country }</span>
 	 	</p> 
 	 }
 	 { 	
-	 	props.temperature && <p className="weather__key"> Temperature: 
-	 		<span className="weather__value"> { props.temperature }	</span>
+	 	props.temperature && <p className="weather_key"> Temperature: 
+	 		<span className="weather_value"> { props.temperature }	</span>
 	 	</p> 
 	 }
+	
 	 { 	
-	 	props.humidity && <p className="weather__key"> Humidity: 
-	 		<span className="weather__value"> { props.humidity } </span>
-	 	</p> 
-	 }
-	 { 	
-	 	props.description && <p className="weather__key"> Conditions: 
-	 		<span className="weather__value"> { props.description } </span>
+	 	props.description && <p className="weather_key"> Conditions: 
+	 		<span className="weather_value"> { props.description } </span>
 	 </p> 
 	 }
 	 { 
